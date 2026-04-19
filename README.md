@@ -153,3 +153,20 @@ const useUserStore = create<UserState>((set) => ({
 
 export default useUserStore;
 ```
+
+## Claude Code 플러그인
+
+이 프로젝트에는 아래 Claude Code 플러그인이 기본 포함되어 있습니다. [Claude Code](https://claude.ai/code)에서 프로젝트를 열면 자동으로 활성화됩니다.
+
+| 플러그인 | 용도 |
+|---------|------|
+| superpowers | 브레인스토밍, 플래닝, TDD 등 Claude Code 워크플로우 스킬 |
+| context7 | 라이브러리/프레임워크 최신 문서 자동 참조 |
+| playwright | 브라우저 자동화 및 UI 테스트 |
+
+## MCP 설정
+
+Figma 연동이 필요한 경우 `figma-mcp/figma-mcp-setup.md`를 참조하세요.
+
+- **figma** (공식 Remote MCP): 디자인 읽기/캡처/생성
+- **figma-rest-api** (커스텀 로컬 MCP): 댓글, 컴포넌트, 스타일 등 REST API
